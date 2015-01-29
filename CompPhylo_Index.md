@@ -4,9 +4,9 @@ Place to store code for Computational Phylogenetics Class 2015
 Computational Phylogenetics 2015
 =======
 
-This is a repository for code I am working on for Computational Phylogenetics Spring 2015 with [(Jeremy Brown)](https://github.com/jembrown) at Louisiana State University.
+This is a repository for code I am working on for Computational Phylogenetics Spring 2015 with [Jeremy Brown](https://github.com/jembrown) at Louisiana State University.
 
-This Week 
+**29 January 2015** - *Probability & Writing Functions*
 -------
 
 **27 January 2015** - *New World Primate Evolution* (Oscar)
