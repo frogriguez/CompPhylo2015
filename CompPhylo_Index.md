@@ -19,9 +19,11 @@ Future
 
 **3 February 2015** - *Continuous Random Variables* 
 >**Readings:**
+> - B&H Prob: CH5 - Continuous Random Variables
 
-**10 February 2015** - 
-
+**5 February 2015** - *MCMC* 
+>**Readings**
+> - B&H Probability: CH11 - MCMC
 Past
 -------
 
@@ -34,11 +36,9 @@ Past
 
 **Exercises** - *Discrete Sampling*
 
-22 January 2015 - Complex Data Structures & PMF
--------
+**22 January 2015** - *Complex Data Structures & PMF*
 
-Readings - *Probability Basics & Writing Functions*
-
+>**Readings** - *Probability Basics & Writing Functions*
 > - Jones - Advanced Python for Biologists - CH5
 > - Jones - Python for Biologists - CH5
 > - B&H - Intro to Probability - CH3
