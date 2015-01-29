@@ -7,11 +7,15 @@ This is a repository for code I am working on for [Computational Phylogenetics S
 This Week
 -------
 
-**29 January 2015** - *Expectation*
+**29 January 2015** - *Expectation & Likelihood*
 
 >**Readings:**
+> - **Lecture Notes:** - [Introduction to Likelihood](https://github.com/jembrown/CompPhylo_Spr2015/blob/master/LikelihoodExercise_InClass_1.29.15.py)
 > - Jones - Advanced Python for Biologists - CH5
 > - B&H - Probability: CH4 - Expectation
+
+
+
 
 
 Future
