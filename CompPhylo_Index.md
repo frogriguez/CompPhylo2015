@@ -4,8 +4,10 @@ Computational Phylogenetics 2015
 This is a repository for code I am working on for [Computational Phylogenetics Spring 2015](https://github.com/jembrown/CompPhylo_Spr2015) with [Jeremy Brown](https://github.com/jembrown) at Louisiana State University.
 
 
+This Week
+======
 
-29 January 2015 - Expectation
+**29 January 2015** - *Expectation*
 -------
 
 **Readings**
