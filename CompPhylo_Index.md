@@ -5,19 +5,18 @@ This is a repository for code I am working on for [Computational Phylogenetics S
 
 
 This Week
-======
+-------
 
 **29 January 2015** - *Expectation*
--------
 
 >**Readings**
 
 >> - Jones - Advanced Python for Biologists - CH5
->> 
->> - Kay R. 2015. Biogeography in deep time - What do phylogenetics, geology, and paleocimate tell us about early platyrrhine evolution. Mol. Phylo. Evol. [(pdf)](https://github.com/mgharvey/reading_group/blob/master/docs/Kay2015.pdf)
+>> - B&H - Probability: CH4 - Expectation
+
 
 Future
-======
+-------
 
 **3 February 2015** - *Continuous Random Variables* 
 
@@ -26,10 +25,9 @@ Future
 **10 February 2015** - 
 
 Past
-=======
+-------
 
 27 January 2015 - Probability & Writing Functions
--------
 
 **Readings** - *Probability Basics & Writing Functions*
 
