@@ -29,18 +29,18 @@ Past
 
 **27 January 2015** - *Probability & Writing Functions*
 
-**Readings**
+>**Readings**
 
-> - Jones - Advanced Python for Biologists - CH5
-> - Jones - Python for Biologists - CH5
-> - B&H - Intro to Probability - CH3
+>> - Jones - Advanced Python for Biologists - CH5
+>> - Jones - Python for Biologists - CH5
+>> - B&H - Intro to Probability - CH3
 
 **Exercises** - *Discrete Sampling*
 
 22 January 2015 - Complex Data Structures & PMF
 -------
 
-**Readings** - *Probability Basics & Writing Functions*
+Readings - *Probability Basics & Writing Functions*
 
 > - Jones - Advanced Python for Biologists - CH5
 > - Jones - Python for Biologists - CH5
