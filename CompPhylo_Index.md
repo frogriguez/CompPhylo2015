@@ -1,10 +1,10 @@
 # CompPhylo2015
 Place to store code for Computational Phylogenetics Class 2015
 
-SU Evolution Discussion Group
+Computational Phylogenetics 2015
 =======
 
-A discussion group meeting Tuesday evenings at 8pm. See the [Google Group](https://groups.google.com/forum/#!forum/lsu-evol-discussion) for more info. To download pdfs, click on the "(pdf)" link and then on "View Raw".
+This is a repository for code I am working on for Computational Phylogenetics Spring 2015 with [(Jeremy Brown)](https://github.com/jembrown) at Louisiana State University.
 
 This Week 
 -------
