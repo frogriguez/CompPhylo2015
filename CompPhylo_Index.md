@@ -10,11 +10,11 @@ This Week
 **29 January 2015** - *Expectation*
 -------
 
-**Readings**
+>**Readings**
 
-> - Jones - Advanced Python for Biologists - CH5
-> 
-> - Kay R. 2015. Biogeography in deep time - What do phylogenetics, geology, and paleocimate tell us about early platyrrhine evolution. Mol. Phylo. Evol. [(pdf)](https://github.com/mgharvey/reading_group/blob/master/docs/Kay2015.pdf)
+>> - Jones - Advanced Python for Biologists - CH5
+>> 
+>> - Kay R. 2015. Biogeography in deep time - What do phylogenetics, geology, and paleocimate tell us about early platyrrhine evolution. Mol. Phylo. Evol. [(pdf)](https://github.com/mgharvey/reading_group/blob/master/docs/Kay2015.pdf)
 
 Future
 ======
