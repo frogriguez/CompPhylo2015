@@ -9,10 +9,10 @@ This Week
 
 **29 January 2015** - *Expectation*
 
->**Readings**
+**Readings**
 
->> - Jones - Advanced Python for Biologists - CH5
->> - B&H - Probability: CH4 - Expectation
+> - Jones - Advanced Python for Biologists - CH5
+> - B&H - Probability: CH4 - Expectation
 
 
 Future
@@ -27,9 +27,9 @@ Future
 Past
 -------
 
-27 January 2015 - Probability & Writing Functions
+**27 January 2015** - *Probability & Writing Functions*
 
-**Readings** - *Probability Basics & Writing Functions*
+**Readings**
 
 > - Jones - Advanced Python for Biologists - CH5
 > - Jones - Python for Biologists - CH5
