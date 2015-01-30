@@ -55,5 +55,5 @@ Past
 >**Exercise** - [Sequence Manipulation](https://github.com/jembrown/CompPhylo_Spr2015/blob/master/Exercise1_SeqManip.txt)
 > - My Code: [Ex1: Sequence Manipulation](CompPhylo2015/Exercises/Ex1-SeqManip.py)
 > - ***Supplementary Materials:***
-> - Coding Sequence Used: [CodingSeq.txt](CompPhylo2015/Exercises/CodingSeq.txt)
-> - Vertebrate Mitochondrial Translation Table: [VertMitTransTable](CompPhylo2015/Exercises/VertMitTransTable.txt)
+>   - Coding Sequence Used: [CodingSeq.txt](CompPhylo2015/Exercises/CodingSeq.txt)
+>   - Vertebrate Mitochondrial Translation Table: [VertMitTransTable](CompPhylo2015/Exercises/VertMitTransTable.txt)
