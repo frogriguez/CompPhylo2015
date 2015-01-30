@@ -6,9 +6,8 @@ This is a repository for code I am working on for [Computational Phylogenetics S
 This Week
 -------
 **29 January 2015** - *Expectation & Likelihood*
-
->**Readings:**
-> - **Lecture Notes:** - [Introduction to Likelihood](https://github.com/jembrown/CompPhylo_Spr2015/blob/master/LikelihoodExercise_InClass_1.29.15.py)
+>**Reading**
+> - **Lecture Notes:** [Introduction to Likelihood](https://github.com/jembrown/CompPhylo_Spr2015/blob/master/LikelihoodExercise_InClass_1.29.15.py)
 > - Jones - Advanced Python for Biologists - CH5
 > - B&H - Probability: CH4 - Expectation
 
@@ -21,7 +20,7 @@ Future
 -------
 
 **3 February 2015** - *Continuous Random Variables* 
->**Readings:**
+>**Reading**
 > - B&H Prob: CH5 - Continuous Random Variables
 
 **5 February 2015** - *MCMC* 
@@ -32,7 +31,7 @@ Past
 -------
 
 **27 January 2015** - *Probability & Writing Functions*
->**Readings:**
+>**Readings**
 > - Jones - Advanced Python for Biologists - CH5
 > - Jones - Python for Biologists - CH5
 > - B&H - Intro to Probability - CH3
@@ -42,7 +41,7 @@ Past
 > - **My Code:** [Ex2: Discrete Sample v1](CompPhylo2015/Exercises/Ex2-DiscSample.py) or [Ex2: Discrete Sample v2](CompPhylo2015/Exercises/Ex2-DiscSample_v2.py)
 
 **22 January 2015** - *Complex Data Structures & PMF*
->**Readings** - *Probability Basics & Writing Functions*
+>**Readings**
 > - Jones - Advanced Python for Biologists - CH5
 > - Jones - Python for Biologists - CH5
 > - B&H - Intro to Probability - CH3
