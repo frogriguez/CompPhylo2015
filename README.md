@@ -32,7 +32,6 @@ Past
 -------
 
 **27 January 2015** - *Probability & Writing Functions*
-
 >**Readings:**
 > - Jones - Advanced Python for Biologists - CH5
 > - Jones - Python for Biologists - CH5
@@ -43,14 +42,12 @@ Past
 > - **My Code:** [Ex2: Discrete Sample v1](CompPhylo2015/Exercises/Ex2-DiscSample.py) or [Ex2: Discrete Sample v2](CompPhylo2015/Exercises/Ex2-DiscSample_v2.py)
 
 **22 January 2015** - *Complex Data Structures & PMF*
-
 >**Readings** - *Probability Basics & Writing Functions*
 > - Jones - Advanced Python for Biologists - CH5
 > - Jones - Python for Biologists - CH5
 > - B&H - Intro to Probability - CH3
 
 **20 January 2015** - *Python Basics*
-
 >**Readings** - *Probability & Basic Coding*
 > - Jones - Advanced Python for Biologists - CH1-2
 > - Jones - Python for Biologists - CH1-4
@@ -59,5 +56,5 @@ Past
 >**Exercise**
 > - **My Code:** [Ex1: Sequence Manipulation](CompPhylo2015/Exercises/Ex1-SeqManip.py)
 > - **Supplementary Materials:**
-> - - Coding Sequence Used: [CodingSeq.txt](CompPhylo2015/Exercises/CodingSeq.txt)
-> - - Vertebrate Mitochondrial Translation Table: [VertMitTransTable](CompPhylo2015/Exercises/VertMitTransTable.txt)
+> - Coding Sequence Used: [CodingSeq.txt](CompPhylo2015/Exercises/CodingSeq.txt)
+> - Vertebrate Mitochondrial Translation Table: [VertMitTransTable](CompPhylo2015/Exercises/VertMitTransTable.txt)
