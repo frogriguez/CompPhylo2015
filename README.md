@@ -16,8 +16,8 @@ This Week
 > - B&H - Probability: CH4 - Expectation
 
 >**Exercise** - *Likelihood Practice*
-> - [Instructions](CompPhylo_Spr2015/LikelihoodExercise_InClass_1.29.15.py)
-> - [My Current Version](Exercises/Ex3-Likelihood.py)
+> - **Instructions** - [*Link*](CompPhylo_Spr2015/LikelihoodExercise_InClass_1.29.15.py)
+> - **Current Version** - [*My Ex3 Code*](Exercises/Ex3-Likelihood.py)
 > - **Due:** 02-03-15
 
 
