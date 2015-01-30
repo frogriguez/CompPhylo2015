@@ -1,13 +1,10 @@
 Computational Phylogenetics 2015
 =======
 
-This is a repository for code I am working on for [Computational Phylogenetics Spring 2015](https://github.com/jembrown/CompPhylo_Spr2015) with [Jeremy Brown](https://github.com/jembrown) at Louisiana State University.
-
-
+This is a repository for code I am working on for [Computational Phylogenetics Spring 2015](https://github.com/jembrown/CompPhylo_Spr2015) with [Jeremy Brown](https://github.com/jembrown) at Louisiana State University. Geaux Tigers!
 
 This Week
 -------
-
 **29 January 2015** - *Expectation & Likelihood*
 
 >**Readings:**
@@ -17,11 +14,8 @@ This Week
 
 >**Exercise** - *Likelihood Practice*
 > - **Instructions** - [*Link*](CompPhylo_Spr2015/LikelihoodExercise_InClass_1.29.15.py)
-> - **Current Version** - [*My Ex3 Code*](Exercises/Ex3-Likelihood.py)
+> - **My Code:** - [Click Here](Exercises/Ex3-Likelihood.py)
 > - **Due:** 02-03-15
-
-
-
 
 Future
 -------
@@ -33,6 +27,7 @@ Future
 **5 February 2015** - *MCMC* 
 >**Readings**
 > - B&H Probability: CH11 - MCMC
+
 Past
 -------
 
@@ -43,7 +38,9 @@ Past
 > - Jones - Python for Biologists - CH5
 > - B&H - Intro to Probability - CH3
 
-**Exercises** - *Discrete Sampling*
+**Exercise** - *Discrete Sampling*
+> - **Link to Instructions:** [Click Here](CompPhylo_Spr2015/Exercise2_discSamp.txt)
+> - **My Code:** [Version1](CompPhylo2015/Exercises/Ex2-DiscSample.py) [Version 2](CompPhylo2015/Exercises/Ex2-DiscSample_v2.py)
 
 **22 January 2015** - *Complex Data Structures & PMF*
 
@@ -52,5 +49,4 @@ Past
 > - Jones - Python for Biologists - CH5
 > - B&H - Intro to Probability - CH3
 
-**Exercises** - *Discrete Sampling*
 
