@@ -38,7 +38,7 @@ Past
 >**Exercise** - [Discrete Sampling](CompPhylo_Spr2015/Exercise2_discSamp.txt)
 > - **My Code:** [Ex2: Disc Sample v1](CompPhylo2015/Exercises/Ex2-DiscSample.py) or [Ex2: Disc Sample v2](CompPhylo2015/Exercises/Ex2-DiscSample_v2.py)
 > - **Due:** 01-29-15
-> - **Answer Key**: [DiscSampleKey](CompPhylo_Spr2015/Exercise2_discSamp.py)
+> - ***Answer Key***: [DiscSampleKey](https://github.com/jembrown/CompPhylo_Spr2015/blob/master/Exercise2_discSamp.py)
 
 **22 January 2015** - *Complex Data Structures & PMF*
 >**Readings**
@@ -52,7 +52,7 @@ Past
 > - Python for Biologists: CH1-4
 > - Intro to Probability: CH1
 
->**Exercise** - [Sequence Manipulation](CompPhylo_Spr2015/Exercise1_SeqManip.txt)
+>**Exercise** - [Sequence Manipulation](https://github.com/jembrown/CompPhylo_Spr2015/blob/master/Exercise1_SeqManip.txt)
 > - **My Code:** [Ex1: Sequence Manipulation](CompPhylo2015/Exercises/Ex1-SeqManip.py)
 > - **Supplementary Materials:**
 > - Coding Sequence Used: [CodingSeq.txt](CompPhylo2015/Exercises/CodingSeq.txt)
