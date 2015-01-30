@@ -15,6 +15,10 @@ This Week
 > - Jones - Advanced Python for Biologists - CH5
 > - B&H - Probability: CH4 - Expectation
 
+>**Exercise** - *Likelihood Practice*
+> - [Instructions](CompPhylo_Spr2015/LikelihoodExercise_InClass_1.29.15.py)
+> - [My Current Version](Exercises/Ex3-Likelihood.py)
+> - **Due:** 02-03-15
 
 
 
