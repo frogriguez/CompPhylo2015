@@ -14,7 +14,7 @@ This Week
 
 >**Exercise** - *Likelihood Practice*
 > - **Instructions:** [Link](CompPhylo_Spr2015/LikelihoodExercise_InClass_1.29.15.py)
-> - **My Code:** [Ex3 - Likelihood](Exercises/Ex3-Likelihood.py)
+> - **My Code:** [Ex3: Likelihood](Exercises/Ex3-Likelihood.py)
 > - **Due:** 02-03-15
 
 Future
@@ -38,7 +38,7 @@ Past
 > - Jones - Python for Biologists - CH5
 > - B&H - Intro to Probability - CH3
 
-**Exercise** - *Discrete Sampling*
+>**Exercise** - *Discrete Sampling*
 > - **Link to Instructions:** [Click Here](CompPhylo_Spr2015/Exercise2_discSamp.txt)
 > - **My Code:** [Ex2: Discrete Sample v1](CompPhylo2015/Exercises/Ex2-DiscSample.py) or [Ex2: Discrete Sample v2](CompPhylo2015/Exercises/Ex2-DiscSample_v2.py)
 
@@ -49,4 +49,15 @@ Past
 > - Jones - Python for Biologists - CH5
 > - B&H - Intro to Probability - CH3
 
+**20 January 2015** - *Python Basics*
 
+>**Readings** - *Probability & Basic Coding*
+> - Jones - Advanced Python for Biologists - CH1-2
+> - Jones - Python for Biologists - CH1-4
+> - B&H - Intro to Probability - CH1
+
+>**Exercise**
+> - **My Code:** [Ex1: Sequence Manipulation](CompPhylo2015/Exercises/Ex1-SeqManip.py)
+> - **Supplementary Materials:**
+> - - Coding Sequence Used: [CodingSeq.txt](CompPhylo2015/Exercises/CodingSeq.txt)
+> - - Vertebrate Mitochondrial Translation Table: [VertMitTransTable](CompPhylo2015/Exercises/VertMitTransTable.txt)
