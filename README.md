@@ -13,8 +13,8 @@ This Week
 > - B&H - Probability: CH4 - Expectation
 
 >**Exercise** - *Likelihood Practice*
-> - **Instructions** - [*Link*](CompPhylo_Spr2015/LikelihoodExercise_InClass_1.29.15.py)
-> - **My Code:** - [Click Here](Exercises/Ex3-Likelihood.py)
+> - **Instructions:** [Link](CompPhylo_Spr2015/LikelihoodExercise_InClass_1.29.15.py)
+> - **My Code:** [Ex3 - Likelihood](Exercises/Ex3-Likelihood.py)
 > - **Due:** 02-03-15
 
 Future
@@ -40,7 +40,7 @@ Past
 
 **Exercise** - *Discrete Sampling*
 > - **Link to Instructions:** [Click Here](CompPhylo_Spr2015/Exercise2_discSamp.txt)
-> - **My Code:** [Version1](CompPhylo2015/Exercises/Ex2-DiscSample.py) [Version 2](CompPhylo2015/Exercises/Ex2-DiscSample_v2.py)
+> - **My Code:** [Ex2: Discrete Sample v1](CompPhylo2015/Exercises/Ex2-DiscSample.py) or [Ex2: Discrete Sample v2](CompPhylo2015/Exercises/Ex2-DiscSample_v2.py)
 
 **22 January 2015** - *Complex Data Structures & PMF*
 
