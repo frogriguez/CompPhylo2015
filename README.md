@@ -19,11 +19,11 @@ Future
 -------
 
 **3 February 2015** - *Continuous Random Variables* 
->**Readings:**
+>**Readings**
 > - B&H Prob: CH5 - Continuous Random Variables
 
 **5 February 2015** - *MCMC* 
->**Readings:**
+>**Readings**
 > - B&H Probability: CH11 - MCMC
 
 Past
