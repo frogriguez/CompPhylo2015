@@ -38,6 +38,7 @@ Past
 >**Exercise** - [Discrete Sampling](CompPhylo_Spr2015/Exercise2_discSamp.txt)
 > - **My Code:** [Ex2: Disc Sample v1](CompPhylo2015/Exercises/Ex2-DiscSample.py) or [Ex2: Disc Sample v2](CompPhylo2015/Exercises/Ex2-DiscSample_v2.py)
 > - **Due:** 01-29-15
+> - **Answer Key**: [DiscSampleKey](CompPhylo_Spr2015/Exercise2_discSamp.py)
 
 **22 January 2015** - *Complex Data Structures & PMF*
 >**Readings**
