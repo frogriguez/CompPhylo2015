@@ -6,13 +6,12 @@ This is a repository for code I am working on for [Computational Phylogenetics S
 This Week
 -------
 **29 January 2015** - *Expectation & Likelihood*
->**Readings:**
+>**Readings**
 > - **Lecture Notes:** [Introduction to Likelihood](https://github.com/jembrown/CompPhylo_Spr2015/blob/master/LikelihoodExercise_InClass_1.29.15.py)
 > - Jones - Advanced Python for Biologists - CH5
 > - B&H Probability: CH4 - Expectation
 
->**Exercise** - *Likelihood Practice*
-> - **Instructions:** [Link](CompPhylo_Spr2015/LikelihoodExercise_InClass_1.29.15.py)
+>**Exercise** - [Likelihood Practice](CompPhylo_Spr2015/LikelihoodExercise_InClass_1.29.15.py)
 > - **My Code:** [Ex3: Likelihood](Exercises/Ex3-Likelihood.py)
 > - **Due:** 02-03-15
 
@@ -32,27 +31,27 @@ Past
 
 **27 January 2015** - *Probability & Writing Functions*
 >**Readings**
-> - Advanced Python for Biologists (Jones): CH5
-> - Python for Biologists (Jones): CH5 - Functions
-> - Intro to Probability (B&H): CH3
+> - Advanced Python for Biologists: CH5
+> - Python for Biologists: CH5 - Functions
+> - Intro to Probability: CH3
 
->**Exercise** - *Discrete Sampling*
-> - **Link to Instructions:** [Click Here](CompPhylo_Spr2015/Exercise2_discSamp.txt)
-> - **My Code:** [Ex2: Discrete Sample v1](CompPhylo2015/Exercises/Ex2-DiscSample.py) or [Ex2: Discrete Sample v2](CompPhylo2015/Exercises/Ex2-DiscSample_v2.py)
+>**Exercise** - [Discrete Sampling](CompPhylo_Spr2015/Exercise2_discSamp.txt)
+> - **My Code:** [Ex2: Disc Sample v1](CompPhylo2015/Exercises/Ex2-DiscSample.py) or [Ex2: Disc Sample v2](CompPhylo2015/Exercises/Ex2-DiscSample_v2.py)
+> - **Due:** 01-29-15
 
 **22 January 2015** - *Complex Data Structures & PMF*
 >**Readings**
-> - Jones - Advanced Python for Biologists - CH5
-> - Jones - Python for Biologists - CH5
-> - B&H - Intro to Probability - CH3
+> - Advanced Python for Biologists: CH5
+> - Python for Biologists: CH5
+> - Intro to Probability: CH3
 
 **20 January 2015** - *Python Basics*
->**Readings:**
-> - Advanced Python for Biologists (Jones): CH1-2
-> - Python for Biologists (Jones): CH1-4
-> - Intro to Probability (B&H): CH1
+>**Readings**
+> - Advanced Python for Biologists: CH1-2
+> - Python for Biologists: CH1-4
+> - Intro to Probability: CH1
 
->**Exercise:**
+>**Exercise** - [Sequence Manipulation](CompPhylo_Spr2015/Exercise1_SeqManip.txt)
 > - **My Code:** [Ex1: Sequence Manipulation](CompPhylo2015/Exercises/Ex1-SeqManip.py)
 > - **Supplementary Materials:**
 > - Coding Sequence Used: [CodingSeq.txt](CompPhylo2015/Exercises/CodingSeq.txt)
