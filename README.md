@@ -12,7 +12,7 @@ This Week
 > - B&H Probability: CH4 - Expectation
 
 >**Exercise** - [Likelihood Practice](CompPhylo_Spr2015/LikelihoodExercise_InClass_1.29.15.py)
-> - My Code: [Ex3_Likelihood](Exercises/Ex3-Likelihood.py)
+> - My Code: [Ex3-Likelihood](Exercises/Ex3-Likelihood.py)
 > - Due: 02-03-15
 
 Future
@@ -36,7 +36,7 @@ Past
 > - Intro to Probability: CH3
 
 >**Exercise** - [Discrete Sampling](CompPhylo_Spr2015/Exercise2_discSamp.txt)
-> - My Code: [Ex2_DiscSample_v1](CompPhylo2015/Exercises/Ex2-DiscSample.py) or [Ex2_DiscSample_v2](CompPhylo2015/Exercises/Ex2-DiscSample_v2.py)
+> - My Code: [Ex2-DiscSamplev1](CompPhylo2015/Exercises/Ex2-DiscSample.py) or [Ex2-DiscSample-v2](CompPhylo2015/Exercises/Ex2-DiscSample_v2.py)
 > - Due: 01-29-15
 > - Answer Key: [DiscSampleKey](https://github.com/jembrown/CompPhylo_Spr2015/blob/master/Exercise2_discSamp.py)
 
@@ -48,6 +48,7 @@ Past
 
 **20 January 2015** - *Python Basics*
 >**Readings**
+> - Lecture Notes: [PythonIntro](https://github.com/jembrown/CompPhylo_Spr2015/blob/master/PythonIntro.py)
 > - Advanced Python for Biologists: CH1-2
 > - Python for Biologists: CH1-4
 > - Intro to Probability: CH1
