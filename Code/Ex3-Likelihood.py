@@ -6,12 +6,18 @@ Zachary Rodriguez
 """
 
 #My Imports
-
+from scipy.stats import binom
 
 
 #1
+#Calculates the Binomial Coefficient (n choose k)
+def bcoef(n,k):
+	bcf = multiply((n-k+1),n)/multiply(max=k)
+	return bcf
+
+#Calculates the Binomial PMF
 def bpmf(n,k,p):
-	bcf1,elapsed = bcf_easy(400,2)
+	bcf = bcoef(n,k)
 	pmf = bcf1*pow(p,k)*pow(1-p,n-k)
 	return (pmf)
 	
@@ -24,3 +30,8 @@ def probs(step=0.05)
 	return p_list
 
 probs()	#Executes list
+
+n = 5
+p = 0.5 # Change this and repeat
+
+data = binom.rvs(n,p)
