@@ -1,18 +1,18 @@
 Computational Phylogenetics 2015
 =======
 
-This is a repository for the [Computational Phylogenetics Spring 2015](https://github.com/jembrown/CompPhylo_Spr2015) course with [Jeremy Brown](https://github.com/jembrown) at Louisiana State University. Here is the [Syllabus](CompPhylo2015/docs/Computational_Phylogenetic_2015_Syllabus.pdf) Geaux Tigers!
+This is a repository for the [Computational Phylogenetics Spring 2015](https://github.com/jembrown/CompPhylo_Spr2015) course with [Jeremy Brown](https://github.com/jembrown) at Louisiana State University. Here is the [Syllabus](https://github.com/zachrodriguez/CompPhylo2015/blob/master/docs/Computational_Phylogenetic_2015_Syllabus.pdf) Geaux Tigers!
 
 This Week
 -------
 **29 January 2015** - *Expectation & Likelihood*
 >**Readings**
-> - Lecture Notes: [Introduction to Likelihood](CompPhylo2015/Notes/01-29-15_Intro_to_Likelihood.py)
+> - Lecture Notes: [Introduction to Likelihood](https://github.com/zachrodriguez/CompPhylo2015/blob/master/Notes/01-29-15_Intro_to_Likelihood.py)
 > - Jones - Advanced Python for Biologists - CH5
 > - B&H Probability: CH4 - Expectation
 
->**Exercise 3** - [Likelihood Practice](CompPhylo2015/CompPhylo2015/Notes/01-29-15_Intro_to_Likelihood.py)
-> - My Code: [Ex3-Likelihood](CompPhylo2015/Code/Ex3-Likelihood.py)
+>**Exercise 3** - [Likelihood Practice](https://github.com/zachrodriguez/CompPhylo2015/blob/master/Notes/01-29-15_Intro_to_Likelihood.py)
+> - My Code: [Ex3-Likelihood](https://github.com/zachrodriguez/CompPhylo2015/blob/master/Code/Ex3-Likelihood.py)
 > - Due: 02-03-15
 
 Future
@@ -35,10 +35,10 @@ Past
 > - Python for Biologists: CH5 - Functions
 > - Intro to Probability: CH3
 
->**Exercise 2** - [Discrete Sampling](CompPhylo2015/Notes/01-27-15_Discrete_Sampling.txt)
-> - My Code: [Ex2-DiscSamplev1](CompPhylo2015/Code/Ex2-DiscSample.py) or [Ex2-DiscSample-v2](CompPhylo2015/Code/Ex2-DiscSample_v2.py)
+>**Exercise 2** - [Discrete Sampling](https://github.com/zachrodriguez/CompPhylo2015/blob/master/Notes/01-27-15_Discrete_Sampling.txt)
+> - My Code: [Ex2-DiscSample_v1](https://github.com/zachrodriguez/CompPhylo2015/blob/master/Code/Ex2-DiscSample.py) or [Ex2-DiscSample-v2](https://github.com/zachrodriguez/CompPhylo2015/blob/master/Code/Ex2-DiscSample_v2.py)
 > - Due: 01-29-15
-> - Answer Key: [DiscSampleKey](CompPhylo2015/Code/Ex2-DiscSampleKey.py)
+> - Answer Key: [DiscSampleKey](https://github.com/zachrodriguez/CompPhylo2015/blob/master/Code/Ex2-DiscSampleKey.py)
 
 **22 January 2015** - *Complex Data Structures & PMF*
 >**Readings**
@@ -48,13 +48,13 @@ Past
 
 **20 January 2015** - *Python Basics*
 >**Readings**
-> - Lecture Notes: [PythonIntro](CompPhylo2015/Notes/01-20-15_Python_Basics)
+> - Lecture Notes: [PythonIntro](https://github.com/zachrodriguez/CompPhylo2015/blob/master/Notes/01-20-15_Python_Basics.py)
 > - Advanced Python for Biologists: CH1-2
 > - Python for Biologists: CH1-4
 > - Intro to Probability: CH1
 
->**Exercise 1** - [Sequence Manipulation](CompPhylo2015/Notes/01-20-15_SeqManip)
-> - My Code: [Ex1-SeqManip](CompPhylo2015/Code/Ex1-SeqManip.py)
+>**Exercise 1** - [Sequence Manipulation](https://github.com/zachrodriguez/CompPhylo2015/blob/master/Notes/01-20-15_SeqManip.txt)
+> - My Code: [Ex1-SeqManip](https://github.com/zachrodriguez/CompPhylo2015/blob/master/Code/Ex1-SeqManip.py)
 > - ***Supplementary Materials:***
->   - Coding Sequence Used: [CodingSeq.txt](CompPhylo2015/Code/CodingSeq.txt)
->   - Vertebrate Mitochondrial Translation Table: [VertMitTransTable](CompPhylo2015/Code/VertMitTransTable.txt)
+>   - Coding Sequence Used: [CodingSeq.txt](https://github.com/zachrodriguez/CompPhylo2015/blob/master/Code/CodingSeq.txt)
+>   - Vertebrate Mitochondrial Translation Table: [VertMitTransTable](https://github.com/zachrodriguez/CompPhylo2015/blob/master/Code/VertMitTransTable.txt)
