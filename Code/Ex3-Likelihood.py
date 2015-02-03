@@ -87,10 +87,11 @@ def ml(n,k):
 	lindex = lscores.index(maxl)
 	maxp = p_list[lindex] 
 	for l in lscores:
-		ratio = abs(l-maxl)/maxl
-		lratios.append(ratio)
-	print ("Your ML score for p =",maxp,",is:",maxl,",given (",n,") trials and (",k,") successes")
-	return lscores,maxl,lratios,maxp
+		LR = l/maxl
+		lratios.append(LR)
+	maxlr = lratios[lindex]
+	print ("Given (",n,") trials and (",k,") successes,/nYour probability:",maxp,"\nYour ML is:",maxl,"Your ML:","\nYour LR is:",maxlr)
+	return lscores,maxl,lratios,maxlr,maxp
 
 #These Are Tests----------------
 #in_class(100)
@@ -116,9 +117,10 @@ def graph(x,y):
 	plt.show()
 	
 
-lscores,maxl,lratios,maxp = ml(100,25)
+lscores,maxl,lratios,maxlr,maxp = ml(5,4)
 x = probs()
-y = lscores
+y = lratios
+graph(x,y)
 #loglihood(lscores)
 
 
