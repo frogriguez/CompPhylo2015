@@ -10,6 +10,7 @@ import scipy
 from scipy.stats import binom
 from numpy import random
 import math
+import matplotlib.pyplot as plt
 
 """
 This function takes the number of trials as an argument (n),
@@ -89,7 +90,7 @@ def ml(n,k):
 		ratio = abs(l-maxl)/maxl
 		lratios.append(ratio)
 	print ("Your ML score for p =",maxp,",is:",maxl,",given (",n,") trials and (",k,") successes")
-	return maxl,lratios
+	return lscores,maxl,lratios,maxp
 
 #These Are Tests----------------
 #in_class(100)
@@ -97,6 +98,29 @@ def ml(n,k):
 #bpmf(5,1,.5)
 #likelihood(5,1,.5)
 #ml(100,20)
+
+"""
+this bit of code is not working, cuz zeros n stuff
+def loglihood(lscores):
+	logs = []
+	for l in lscores:
+		log = math.log(l[10])
+		logs.append(log)
+	print ("Here is your list of loglihoods:",logs)
+"""
+
+def graph(x,y):
+	plt.plot(x, y)
+	plt.xlabel("Probabilities")
+	plt.ylabel("Likelihoods")
+	plt.show()
+	
+
+lscores,maxl,lratios,maxp = ml(100,25)
+x = probs()
+y = lscores
+#loglihood(lscores)
+
 
 
 
