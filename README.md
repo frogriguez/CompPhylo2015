@@ -1,7 +1,8 @@
 Computational Phylogenetics 2015
 =======
 
-This is a repository for the [Computational Phylogenetics Spring 2015](https://github.com/jembrown/CompPhylo_Spr2015) course with [Jeremy Brown](https://github.com/jembrown) at Louisiana State University. Here is the [Syllabus](https://github.com/zachrodriguez/CompPhylo2015/blob/master/docs/Computational_Phylogenetic_2015_Syllabus.pdf) Geaux Tigers!
+This is a repository for the [Computational Phylogenetics Spring 2015](https://github.com/jembrown/CompPhylo_Spr2015) course with [Jeremy Brown](https://github.com/jembrown) at Louisiana State University. Here is the [Syllabus](https://github.com/zachrodriguez/CompPhylo2015/blob/master/docs/Computational_Phylogenetic_2015_Syllabus.pdf) 
+Geaux Tigers!
 
 This Week
 -------
