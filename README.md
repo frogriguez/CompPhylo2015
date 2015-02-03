@@ -8,10 +8,11 @@ This Week
 **3 February 2015** - *Continuous Random Variables* 
 >**Readings**
 > - B&H Prob: CH5 - Continuous Random Variables
+>Check in: [Topics to Know](https://github.com/jembrown/CompPhylo_Spr2015/blob/master/TopicCheckIn_2.3.15.txt)
 
->**Exercise 3** - [Likelihood Practice](https://github.com/jembrown/CompPhylo_Spr2015/blob/master/Exercises/Exercise3_Likelihood.py)
-> - My Code: [Ex3-Likelihood](https://github.com/zachrodriguez/CompPhylo2015/blob/master/Code/Ex3-Likelihood.py)
-> - Due: 02-03-15 (Part I), 02-05-15 (Part II)
+>**Exercise 3.2** - [Likelihood Practice (II)](https://github.com/jembrown/CompPhylo_Spr2015/blob/master/Exercises/Exercise3_Likelihood.py)
+> - My Code: [Ex3-Likelihood (II)](https://github.com/zachrodriguez/CompPhylo2015/blob/master/Code/Ex3-Likelihood-(II).py)
+> - Due: 02-05-15 (Part II)
 
 Future
 -------
@@ -22,6 +23,11 @@ Future
 
 Past
 -------
+>**Exercise 3.1** - [Likelihood Practice (I)](https://github.com/jembrown/CompPhylo_Spr2015/blob/master/Exercises/Exercise3_Likelihood.py)
+> - My Code: [Ex3-Likelihood (I)](https://github.com/zachrodriguez/CompPhylo2015/blob/master/Code/Ex3-Likelihood.py)
+> -	-	GUI: [Likelihood GUI](https://github.com/zachrodriguez/CompPhylo2015/blob/master/Code/Ex3-Likelihood-gui.py)
+> - Due: 02-03-15 (Part I), 02-05-15 (Part II)
+
 **29 January 2015** - *Expectation & Likelihood*
 >**Readings**
 > - Lecture Notes: [Introduction to Likelihood](https://github.com/zachrodriguez/CompPhylo2015/blob/master/Notes/01-29-15_Intro_to_Likelihood.py)
