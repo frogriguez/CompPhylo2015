@@ -18,6 +18,7 @@ assigns a random probability, then draws from a binomial distribution based on (
 then queries the user to estimate the prob, based on # of successes (k)
 """
 
+#This function takes a random prob, samples from a binomial dist, and prompts the user to guess the p value based on success.
 def in_class(n=5,p=0.5):
 	p = random.random()	#gives (p) a random value between 0 & 1
 	k = binom.rvs(n,p)	#draws from a binomial distribution based on (n,p), returns # of successes
@@ -109,7 +110,7 @@ def loglihood(lscores):
 		logs.append(log)
 	print ("Here is your list of loglihoods:",logs)
 """
-
+#Plots probabilities & likelihood values
 def graph(x,y):
 	plt.plot(x, y)
 	plt.xlabel("Probabilities")
