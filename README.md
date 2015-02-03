@@ -5,22 +5,16 @@ This is a repository for the [Computational Phylogenetics Spring 2015](https://g
 
 This Week
 -------
-**29 January 2015** - *Expectation & Likelihood*
->**Readings**
-> - Lecture Notes: [Introduction to Likelihood](https://github.com/zachrodriguez/CompPhylo2015/blob/master/Notes/01-29-15_Intro_to_Likelihood.py)
-> - Jones - Advanced Python for Biologists - CH5
-> - B&H Probability: CH4 - Expectation
-
->**Exercise 3** - [Likelihood Practice](https://github.com/jembrown/CompPhylo_Spr2015/blob/master/Exercises/Exercise3_Likelihood.py)
-> - My Code: [Ex3-Likelihood](https://github.com/zachrodriguez/CompPhylo2015/blob/master/Code/Ex3-Likelihood.py)
-> - Due: 02-03-15
-
-Future
--------
-
 **3 February 2015** - *Continuous Random Variables* 
 >**Readings**
 > - B&H Prob: CH5 - Continuous Random Variables
+
+>**Exercise 3** - [Likelihood Practice](https://github.com/jembrown/CompPhylo_Spr2015/blob/master/Exercises/Exercise3_Likelihood.py)
+> - My Code: [Ex3-Likelihood](https://github.com/zachrodriguez/CompPhylo2015/blob/master/Code/Ex3-Likelihood.py)
+> - Due: 02-03-15 (Part I), 02-05-15 (Part II)
+
+Future
+-------
 
 **5 February 2015** - *MCMC* 
 >**Readings**
@@ -28,6 +22,11 @@ Future
 
 Past
 -------
+**29 January 2015** - *Expectation & Likelihood*
+>**Readings**
+> - Lecture Notes: [Introduction to Likelihood](https://github.com/zachrodriguez/CompPhylo2015/blob/master/Notes/01-29-15_Intro_to_Likelihood.py)
+> - Jones - Advanced Python for Biologists - CH5
+> - B&H Probability: CH4 - Expectation
 
 **27 January 2015** - *Probability & Writing Functions*
 >**Readings**
