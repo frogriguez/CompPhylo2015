@@ -162,8 +162,9 @@ def ml(n,k):
 	for l in lscores:
 		ratio = abs(l-maxl)/maxl
 		lratios.append(ratio)
+	maxlr = lratios[lindex]
 	print ("Your ML score for p =",maxp,",is:",maxl,",given (",n,") trials and (",k,") successes")
-	return lscores,maxl,lratios,maxp
+	return lscores,maxl,lratios,maxlr,maxp
 
 #These Are Tests----------------
 #in_class(100)
@@ -193,7 +194,7 @@ def graph(x,y):
 
 def graph():
 	n,k,p = int(getn()),int(getk()),(getp())
-	lscores,maxl,lratios,maxp = ml(n,k)
+	lscores,maxl,lratios,maxl,maxp = ml(n,k)
 	x = probs()
 	y = lscores
 	a = fig.add_subplot(111)
