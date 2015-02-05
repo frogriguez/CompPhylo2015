@@ -12,7 +12,7 @@ This Week
 >Check in: [Topics to Know](https://github.com/jembrown/CompPhylo_Spr2015/blob/master/TopicCheckIn_2.3.15.txt)
 
 >**Exercise 3.2** - [Likelihood Practice (II)](https://github.com/zachrodriguez/CompPhylo2015/blob/master/Code/Ex3.2-Likelihood.py)
-> - My Code: [Ex3-Likelihood & Hill Climbing(II)](https://github.com/zachrodriguez/CompPhylo2015/blob/master/Code/Ex3-Likelihood-(II).py)
+> - My Code: [Ex3-Likelihood & Hill Climbing(II)](https://github.com/zachrodriguez/CompPhylo2015/blob/master/Code/Ex3.2-Likelihood.py)
 > - Due: 02-05-15 (Part II)
 
 Future
