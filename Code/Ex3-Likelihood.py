@@ -71,6 +71,7 @@ def bpmf(n,k,p):
 	#print ("Your binomial pmf is:",pmf,"given",n,"trials,",k,"successes and a probability of:",p)
 	return pmf
 
+"""
 #Calculates likelihood scores
 def likelihood(n,k,p):
 	pmf = bpmf(n,k,p)
@@ -78,6 +79,7 @@ def likelihood(n,k,p):
 	l = pmf/bc
 	#print ("Your Likelihood score for p =",p,"is:",l,",given",n,"trials and",k,"successes")
 	return l
+"""
 
 #calculates maximum likelihood
 def ml(n,k):
@@ -91,7 +93,7 @@ def ml(n,k):
 		LR = l/maxl
 		lratios.append(LR)
 	maxlr = lratios[lindex]
-	print ("Given (",n,") trials and (",k,") successes,/nYour probability:",maxp,"\nYour ML is:",maxl,"Your ML:","\nYour LR is:",maxlr)
+	print ("Given (",n,") trials and (",k,") successes,\nYour probability:",maxp,"\nYour ML is:",maxl,"\nYour LR is:",maxlr)
 	return lscores,maxl,lratios,maxlr,maxp
 
 #These Are Tests----------------
