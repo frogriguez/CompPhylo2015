@@ -149,7 +149,7 @@ def sim(n=200,truep=random.random(),s=1000):
 	return LRs,LRTs
 
 def graph(x):
-	plt.plot(x)
+	plt.hist(x,bins = 25)
 	plt.xlabel("Likelihoods")
 	plt.ylabel("LRT scores")
 	plt.show()
@@ -160,6 +160,6 @@ LRreject = LRs[index]
 LRTs = sorted(LRTs)
 LRTreject = LRTs[index]
 print(LRreject,LRTreject)
-graph(LRs)
+graph(LRTs)
 	
 	
