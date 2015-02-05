@@ -6,7 +6,7 @@ Geaux Tigers!
 
 This Week
 -------
-**5 February 2015** - *MCMC* 
+**7 February 2015** - *MCMC* 
 >**Readings**
 > - B&H Probability: CH11 - MCMC
 
@@ -14,6 +14,28 @@ This Week
 >	-	My Code: []()
 >	-	Due: 
 
+
+**date Month 2015** - *Topic* 
+>**Readings**
+> - book: CH - Topic
+
+>**Exercise x.x**
+>	-	My Code: [text-to-display](url)
+>	-	Due: mm/dd/yyyy
+
+Future
+-------
+
+**date Month 2015** - *Topic* 
+>**Readings**
+> - book: CH - Topic
+
+>**Exercise x.x**
+>	-	My Code: [text-to-display](url)
+>	-	Due: mm/dd/yyyy
+
+Past
+-------
 **3 February 2015** - *Continuous Random Variables* 
 >**Readings**
 > - B&H Prob: CH5 - Continuous Random Variables
@@ -23,15 +45,6 @@ This Week
 > - My Code: [Ex3-Likelihood & Hill Climbing(II)](https://github.com/zachrodriguez/CompPhylo2015/blob/master/Code/Ex3.2-Likelihood.py)
 > - Due: 02-05-15 (Part II)
 
-Future
--------
-
-**5 February 2015** - *MCMC* 
->**Readings**
-> - B&H Probability: CH11 - MCMC
-
-Past
--------
 **3 February 2015** - *Continuous Random Variables* 
 >**Readings**
 > - B&H Prob: CH5 - Continuous Random Variables
