@@ -6,6 +6,14 @@ Geaux Tigers!
 
 This Week
 -------
+**5 February 2015** - *MCMC* 
+>**Readings**
+> - B&H Probability: CH11 - MCMC
+
+>**Exercise x.x**
+>	-	My Code: []()
+>	-	Due: 
+
 **3 February 2015** - *Continuous Random Variables* 
 >**Readings**
 > - B&H Prob: CH5 - Continuous Random Variables
@@ -24,6 +32,15 @@ Future
 
 Past
 -------
+**3 February 2015** - *Continuous Random Variables* 
+>**Readings**
+> - B&H Prob: CH5 - Continuous Random Variables
+>Check in: [Topics to Know](https://github.com/jembrown/CompPhylo_Spr2015/blob/master/TopicCheckIn_2.3.15.txt)
+
+>**Exercise 3.2** - [Likelihood Practice (II)](https://github.com/zachrodriguez/CompPhylo2015/blob/master/Code/Ex3.2-Likelihood.py)
+> - My Code: [Ex3-Likelihood & Hill Climbing(II)](https://github.com/zachrodriguez/CompPhylo2015/blob/master/Code/Ex3.2-Likelihood.py)
+> - Due: 02-05-15 (Part II)
+
 >**Exercise 3.1** - [Likelihood Practice (I)](https://github.com/jembrown/CompPhylo_Spr2015/blob/master/Exercises/Exercise3_Likelihood.py)
 > - My Code: [Ex3-Likelihood (I)](https://github.com/zachrodriguez/CompPhylo2015/blob/master/Code/Ex3-Likelihood.py)
 > -	-	GUI: [Likelihood GUI](https://github.com/zachrodriguez/CompPhylo2015/blob/master/Code/Ex3-Likelihood-gui.py)
