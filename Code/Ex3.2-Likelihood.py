@@ -128,16 +128,17 @@ Likelihood ratios, returning the likelihood ratios that lie in the 95% interval 
 
 def sim(n=200,truep=random.random(),s=1000):
 	truek = n*truep		#calculates the "true" number of successes
-	L = likelihood(n,truek,truep)	#calculates the "true" likelihood
+	
 	LRs,LRTs = [],[]
 	for x in range(0,s+1):	#this function runs (s) # of times
 		k = binom.rvs(n,truep)	#draws #successes (k) from a binomial distribution
+		L = likelihood(n,k,truep)	#calculates the "true" likelihood
 		ML,_ = hillclimb(n,k)	#hillclimb estimate, returns ML
 		LR = L/ML				#Calculates Likelihood ratio (LR), appends to list
 		LRs.append(LR)
 	
 	#generates list of LR test statistics [-2ln(LR)] from list of LRs
-	LRTs = list(map(lambda x: math.log(x)*(-2),LRs))	
+	LRTs = list(map(lambda x: (-2)*math.log(x),LRs))	
 	LRs = sorted(LRs)			
 	index = round(len(LRs)*.95)	#finds index of the LR lying at the 95% interval
 	LRreject = LRs[index]	
@@ -157,6 +158,8 @@ LRs,LRTs = sim(n=200,truep=0.5)
 index = round(len(LRs)*.95)	#finds index of the LR lying at the 95% interval
 LRreject = LRs[index]	
 LRTs = sorted(LRTs)
+LRTreject = LRTs[index]
+print(LRreject,LRTreject)
 graph(LRs)
 	
 	
