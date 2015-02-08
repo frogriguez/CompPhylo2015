@@ -43,8 +43,7 @@ listnew = list(map(lambda x: multiply(x),listold))	#use list() function to creat
 
 print (listold,listnew)
 """
-x = [4,6,3,6,7,34,6,6]
-print (sorted(x))
+
 
 
 

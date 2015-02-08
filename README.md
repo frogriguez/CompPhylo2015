@@ -6,20 +6,21 @@ Geaux Tigers!
 
 This Week
 -------
-**7 February 2015** - *MCMC* 
+**10 February 2015** - *MCMC* 
 >**Readings**
 > - B&H Probability: CH11 - MCMC
+> - [Joint, Conditional, and Marginal Probabilities](https://github.com/jembrown/CompPhylo_Spr2015/blob/master/Resources/CondJoinProb.pdf)
 
->**Exercise x.x**
->	-	My Code: []()
->	-	Due: 
+>**Exercise 4** - [*Discrete Markov Chains*](https://github.com/jembrown/CompPhylo_Spr2015/blob/master/Exercises/Exercise4_DiscreteMarkovChains.py)
+>	-	My Code: [Ex4-DiscMarkov]()
+>	-	Due: 02/10/15
 
 
-**date Month 2015** - *Topic* 
+**DD MMMM 2015** - *Topic* 
 >**Readings**
 > - book: CH - Topic
 
->**Exercise x.x**
+>**Exercise x.x** - [*title*](url)
 >	-	My Code: [text-to-display](url)
 >	-	Due: mm/dd/yyyy
 
