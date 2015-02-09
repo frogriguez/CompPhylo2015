@@ -12,7 +12,7 @@ This Week
 > - [Joint, Conditional, and Marginal Probabilities](https://github.com/jembrown/CompPhylo_Spr2015/blob/master/Resources/CondJoinProb.pdf)
 
 >**Exercise 4** - [*Discrete Markov Chains*](https://github.com/jembrown/CompPhylo_Spr2015/blob/master/Exercises/Exercise4_DiscreteMarkovChains.py)
->	-	My Code: [Ex4-DiscMarkov]()
+>	-	My Code: [Ex4-DiscMarkov](https://github.com/zachrodriguez/CompPhylo2015/blob/master/Code/Ex4-DiscMarkov.py)
 >	-	Due: 02/10/15
 
 
