@@ -37,7 +37,7 @@ Future
 
 Past
 -------
-**3 February 2015** - *Continuous Random Variables* 
+**5 February 2015** - *Continuous Random Variables* 
 >**Readings**
 > - B&H Prob: CH5 - Continuous Random Variables
 >Check in: [Topics to Know](https://github.com/jembrown/CompPhylo_Spr2015/blob/master/TopicCheckIn_2.3.15.txt)
