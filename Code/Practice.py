@@ -44,10 +44,11 @@ listnew = list(map(lambda x: multiply(x),listold))	#use list() function to creat
 print (listold,listnew)
 """
 
+"""
 #practice list
 matrix = [[0.4,0.6],[0.3,0.7]]
 print (matrix[0])
-
+"""
 
 
 
