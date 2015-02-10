@@ -9,6 +9,7 @@ This Week
 **10 February 2015** - *MCMC* 
 >**Readings**
 > - B&H Probability: CH11 - MCMC
+> - [Practice with MCMC](http://setosa.io/blog/2014/07/26/markov-chains/)
 > - [Joint, Conditional, and Marginal Probabilities](https://github.com/jembrown/CompPhylo_Spr2015/blob/master/Resources/CondJoinProb.pdf)
 
 >**Exercise 4** - [*Discrete Markov Chains*](https://github.com/jembrown/CompPhylo_Spr2015/blob/master/Exercises/Exercise4_DiscreteMarkovChains.py)
