@@ -18,7 +18,7 @@ To start, let's restrict ourselves to the case where our chain takes only two
 states. Create the names of the chain's states:
 """
 
-elements = ('A,B')
+elements = ('A','B')
 MC1 = [x+y for x in elements for y in elements]	#Creates a list of every combination of 'A' & 'B'
 print (MC1)
 """
@@ -53,33 +53,34 @@ function to draw one of your states based on this random number.
 This function takes an argument (x) and samples a new
 A or B based on conditional probabilities listed earlier
 """
-def sample(x):
+	
+def sample(x,matrix):
 	num = random.random()
 	if x == 'A':	#If x = A, new probabilities are from row 0
-		p = 0.3
+		row = matrix[0]
 	else:			#If x = B, new probabilities are from row 1
-		p = 0.4
-		
-	if num <= p:
-		return"A"
+		row = matrix[1]
+	if num <= row[0]:
+		return "A"
 	else:
 		return "B"
-	
+
 
 def markov(n):
-	states = ["A"]
+	states = [random.choice(elements)]
 	#executes sample() function (n) # of times, passing it the last element in the list as an argument
-	[states.append(sample(states[-1])) for x in range(0,n)]	
+	[states.append(sample2(states[-1],mat1)) for x in range(0,n)]	
 	return states
 
-print (markov(10))
-
+print (markov2(10))
+	
 #This is not necessary yet
 def nucleotide():
 	bases = ["A,T,C,G"]
 	labels = [a + t + c + g for a in bases for t in bases for c in bases for g in bases]
 	probs = [0.25,0.25,0.25]
 
+	
 #This function will return a base with equal probability, regardless of the nucleotide before it
 def nt():
 	num = random.random()
