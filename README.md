@@ -6,6 +6,20 @@ Geaux Tigers!
 
 This Week
 -------
+**12 February 2015** - *Discrete Markov Chains* 
+>**Readings**
+> - B&H Probability: CH11 - MCMC
+> - [Practice with MCMC](http://setosa.io/blog/2014/07/26/markov-chains/)
+> - [Joint, Conditional, and Marginal Probabilities](https://github.com/jembrown/CompPhylo_Spr2015/blob/master/Resources/CondJoinProb.pdf)
+
+>**Exercise 4.2** - [*DiscMarkov part II*](https://github.com/jembrown/CompPhylo_Spr2015/blob/master/Exercises/Exercise4_DiscreteMarkovChains.py)
+>	-	My Code: [Ex4.2]()
+>	-	Due: 02/12/15
+
+>**Exercise 4.3** - [*Markov Chain In Class Ex](https://github.com/jembrown/CompPhylo_Spr2015/blob/master/Exercises/Exercise4_DiscreteMarkovChains.py)
+>	-	My Code: [Ex4.3 MC In Class]()
+>	-	Due: 02/12/15
+
 **10 February 2015** - *MCMC* 
 >**Readings**
 > - B&H Probability: CH11 - MCMC
@@ -13,7 +27,7 @@ This Week
 > - [Joint, Conditional, and Marginal Probabilities](https://github.com/jembrown/CompPhylo_Spr2015/blob/master/Resources/CondJoinProb.pdf)
 
 >**Exercise 4** - [*Discrete Markov Chains*](https://github.com/jembrown/CompPhylo_Spr2015/blob/master/Exercises/Exercise4_DiscreteMarkovChains.py)
->	-	My Code: [Ex4-DiscMarkov](https://github.com/zachrodriguez/CompPhylo2015/blob/master/Code/Ex4-DiscMarkov.py)
+>	-	My Code: [Ex4-DiscMarkov]()
 >	-	Due: 02/10/15
 
 

@@ -79,7 +79,7 @@ def nucleotide():
 	bases = ["A,T,C,G"]
 	labels = [a + t + c + g for a in bases for t in bases for c in bases for g in bases]
 	probs = [[0.25,0.25,0.25],[0.25,0.25,0.25],[0.25,0.25,0.25],[0.25,0.25,0.25]]
-
+	
 	
 #This function will return a base with equal probability, regardless of the nucleotide before it
 def nt():

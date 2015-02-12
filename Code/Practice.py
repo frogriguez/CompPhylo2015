@@ -1,12 +1,13 @@
 """
-Practice
+Practice Different Functions
 """
 
 import math
-import numpy
+import numpy as np
 import random
 
-"""Practice Round
+
+#Practice Round
 rando = random.random()
 round0 = round(rando)
 round1 = round(rando,1)
@@ -50,5 +51,15 @@ matrix = [[0.4,0.6],[0.3,0.7]]
 print (matrix[0])
 """
 
+"""
+#Practice enumerate
+seasons = ['Spring', 'Summer', 'Fall', 'Winter']
+list = list(enumerate(seasons))
+print(list)
+
+#Practice Next:
+list = [0,1,2,3,4,5,6,7,8,9,10]
+print(next(x[0] for x in enumerate(list) if x[1] > 5))
+"""
 
 

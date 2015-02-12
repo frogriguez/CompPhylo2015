@@ -22,32 +22,18 @@ Work in pairs for this. It's more fun to be social.
 # and aperiodic).
 
 
-
-
 # Simulate a single chain for three time steps and print the states
 
 
-
-
 # Analytically calculate the progression of states for this chain.
-
-
-
 
 # Calculate the probability of observing the state in step 3, given the initial
 # state in step 1 (i.e., as if you didn't know the state in step 2).
 
 
-
-
-
 # Now think of the chain progressing in the opposite direction. What is the
 # probability of the progression through all 3 states in this direction? How
 # does this compare to the original direction?
-
-
-
-
 
 
 # Try the same "forward" and "reverse" calculations as above, but with this
