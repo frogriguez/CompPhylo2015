@@ -6,6 +6,46 @@ Geaux Tigers!
 
 This Week
 -------
+**02 March 2015** - *What are we doing?*
+>**Readings**
+> - Yang CH3 - Review Reconstructing Trees
+
+>**Exercise 5** - [*Continuous Markov Chain Using Objects*](url)
+>	-	My Code: [Ex5-MC with Objects](url)
+>   -   To Do:
+>		-	(1) Calculate Likelihood Scores
+		-	(2)	Estimate Branch Lengths (v) given the data (nt changes)
+		-	(3)	Calculate ML
+>	-	Due: 03/02/2015
+
+
+Future
+-------
+**05 March 2015** - *Calculating ML for nt Change* 
+>**Readings**
+> - Yang: CH4 - Calculate Likelihood Scores on Trees
+
+**DD MMMM 2015** - *Topic* 
+>**Readings**
+> - book: CH - Topic
+
+>**Exercise x.x** - [*title*](url)
+>	-	My Code: [text-to-display](url)
+>	-	Due: mm/dd/yyyy
+
+Past
+-------
+**24 & 26 February 2015** - *Objects*
+>**Readings**
+> - Huelsenbeck 2.3 - Stochastic Mechs for Character Change
+> - Yang CH1 - Nucleotide Substitution Models
+> - PFB CH4 - Object Oriented Python
+
+**19 February 2015** - *Character Change*
+>**Readings**
+> - Huelsenbeck 2.3 - Stochastic Mechs for Character Change
+> - Yang CH1
+
 **12 February 2015** - *Discrete Markov Chains* 
 >**Readings**
 > - B&H Probability: CH11 - MCMC
@@ -30,28 +70,6 @@ This Week
 >	-	My Code: [Ex4-DiscMarkov]()
 >	-	Due: 02/10/15
 
-
-**DD MMMM 2015** - *Topic* 
->**Readings**
-> - book: CH - Topic
-
->**Exercise x.x** - [*title*](url)
->	-	My Code: [text-to-display](url)
->	-	Due: mm/dd/yyyy
-
-Future
--------
-
-**date Month 2015** - *Topic* 
->**Readings**
-> - book: CH - Topic
-
->**Exercise x.x**
->	-	My Code: [text-to-display](url)
->	-	Due: mm/dd/yyyy
-
-Past
--------
 **5 February 2015** - *Continuous Random Variables* 
 >**Readings**
 > - B&H Prob: CH5 - Continuous Random Variables

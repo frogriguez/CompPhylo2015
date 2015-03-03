@@ -48,6 +48,26 @@ def markov(s,states,matrix):
 	[chain.append(sample(states.index(chain[-1]),states,matrix)) for x in range(s)]	
 	return chain
 
+def markov2(s,states,matrix,probs):
+	#This function picks a seed from list of states & their probs
+	num = random.random()
+	
+	#creates cumulative list (cumprobs) from old list (row)
+	cumprobs = np.cumsum(probs)	
+	
+	#goes to next element (x) in list (cumprobs) if statement is true (x > num)
+	#& returns it's it's index (next() function)
+	index = next(x[0] for x in enumerate(cumprobs) if x[1] > num)
+	
+	chain = [states[index]]
+	
+	print ("seed:",chain)
+	
+	#takes the last element in list "chain" and returns it's index from states
+	#& appends new sample (see above) in chain, (n) number of times
+	[chain.append(sample(states.index(chain[-1]),states,matrix)) for x in range(s)]	
+	return chain	
+
 """
 This function converts your original matrix into a numpy matrix,
 which can perform transitional matrix multiplication.
@@ -56,34 +76,59 @@ def nstep(matrix,i,j,s):
 	matrix = np.matrix(matrix)
 	stepmat = matrix**(s) #not sure if this function includes zero (0)
 	print (s,"- step probability matrix:",stepmat)
-	return (stepmat[i][j])
+	return (stepmat[i,j])
 	
-	
-	
-probmat = [[0.7,0.3],[0.5,0.6]]	#creates 2x2 matrix of probabilities for row 'A' and row 'B'
+#calculate prob that you will see the end of your chain in 3 steps
+def calcstep():
+	probmat = [[0.7,0.3],[0.4,0.6]]	#creates 2x2 matrix of probabilities for row 'A' and row 'B'
 
-states = ("A","B")
+	states = ("A","B")
 
-#simulate 1 chain of 3 steps:
-s = 3
-chain = (markov(s,states,probmat))
-print ("You're chain of",s,"steps:",chain)
+	#simulate 1 chain of 3 steps:
+	s = 3
+	chain = (markov(s,states,probmat))
+	print ("You're chain of",s,"steps:",chain)
 
-#calculate n-step transitional probability:
+	#calculate n-step transitional probability:
 
-ival = chain[0]
-i = states.index(ival)
+	ival = chain[0]
+	i = states.index(ival)
 
-jval = chain[s-1]
-j = states.index(jval)
+	jval = chain[s-1]
+	j = states.index(jval)
 
-print("i=",i,"j=",j)
+	print("i=",i,"j=",j)
 
-prob = nstep(probmat,i,j,s)
-print("Probability that j =",jval,"in",s,"steps, given that i =",ival,"is:",prob)
+	prob = nstep(probmat,i,j,s)
+	print("Probability that j =",jval,"in",s,"steps, given that i =",ival,"is:",prob)
 
+calcstep()
 
+#Try it with the following transitional matrix & starting frequencies:
+def startprobs():
+	#This function picks a seed from list of states & their probs
 
+	revMat = [[0.77,0.23],[0.39,0.61]]
+	states = ("A","B")
+	initial = [0.63,0.67]
+
+	#simulate 1 chain of 3 steps:
+	s = 3
+	chain = (markov2(s,states,revMat,initial))
+	print ("You're chain of",s,"steps:",chain)
+
+	#calculate n-step transitional probability:
+	ival = chain[0]
+	i = states.index(ival)
+
+	jval = chain[s-1]
+	j = states.index(jval)
+
+	print("i=",i,"j=",j)
+
+	prob = nstep(revMat,i,j,s)
+	print("Probability that j =",jval,"in",s,"steps, given that i =",ival,"is:",prob)
+#starprobs()
 
 
 

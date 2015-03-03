@@ -43,14 +43,7 @@ Work in pairs for this. It's more fun to be social.
 # and these starting frequencies for "a" and "b"
 # freq(a) = 0.63   freq(b) = 0.37
 
-
-
-
 # What is (roughly) true about these probabilities?
-
-
-
-
 
 # Simulate 1,000 replicates  (or 10K if your computer is fast enough) of 25 
 # steps. What are the frequencies of the 2 states across replicates through time?
@@ -76,22 +69,11 @@ def mcStateFreqSum(sims,state="a"):
 
 # Run replicate simulations 
 
-
-
-    
 # Summarize the frequency of one state through time
-
-
-
 
 # What do you notice about the state frequencies through time? Try another round
 # of simulations with a different transition matrix. How do the state freq.
 # values change?
-
-
-
-
-
 
 # Now, calculate a vector of probabilities for the focal state (e.g., 'a')
 # based on the transition matrix directly (not by simulation). How do these
