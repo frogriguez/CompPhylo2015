@@ -51,7 +51,7 @@ if re.search(r"GC[^F&9]GC", dna):
 	
 #Use "?" to match zero or one character
 re.search(r"GAT?C",dna)
-	#T is optional, and the pattern will match either GATCor GAC
+	#T is optional, and the pattern will match either GATC or GAC
 re.search(r"GGG(AAA)?TTT",dna)	
 	#AAA is optional and will match GGGAAATTT or GGGTTT
 	

@@ -6,24 +6,24 @@ Geaux Tigers!
 
 This Week
 -------
-**02 March 2015** - *What are we doing?*
+**17 March 2015** - *Creating Tree Objects*
 >**Readings**
-> - Yang CH3 - Review Reconstructing Trees
+> - 
 
->**Exercise 5** - [*Continuous Markov Chain Using Objects*](url)
->	-	My Code: [Ex5-MC with Objects](url)
+>**Exercise 6** - [*Tree/Node Objects*](https://github.com/jembrown/CompPhylo_Spr2015/blob/master/Exercises/Exercise6_NodesTrees.py)
+>	-	My Code: [Ex6-Trees](url)
 >   -   To Do:
->		-	(1) Calculate Likelihood Scores
-		-	(2)	Estimate Branch Lengths (v) given the data (nt changes)
-		-	(3)	Calculate ML
->	-	Due: 03/02/2015
+>		-	(1) Create node Object
+		-	(2)	Create Tree object
+		-	(3)	Write recursive function to print tips of tree, given root
+		-	(4) Write recursive function to calculate tree length (sum of all branches)
+		-	(5) Write recursive function to read in from Newick file & store info in memory
+		-	(6) Write recursive function to take tree object & write to parenthetical Newick file
+>	-	Due: 03/17/2015
 
 
 Future
 -------
-**05 March 2015** - *Calculating ML for nt Change* 
->**Readings**
-> - Yang: CH4 - Calculate Likelihood Scores on Trees
 
 **DD MMMM 2015** - *Topic* 
 >**Readings**
@@ -35,6 +35,22 @@ Future
 
 Past
 -------
+**03 March 2015** - *Nucleotide Substitution Models*
+>**Readings**
+> - Yang CH1 - Models of Nucleotide Substitution
+
+**05 March 2015** - *Calculating ML for nt Change* 
+>**Readings**
+> - Yang: CH4 - Calculate Likelihood Scores on Trees
+
+>**Exercise 5** - [*Continuous Markov Chain Using Objects*](url)
+>	-	My Code: [Ex5-MC with Objects](url)
+>   -   To Do:
+>		-	(1) Calculate Likelihood Scores
+		-	(2)	Estimate Branch Lengths (v) given the data (nt changes)
+		-	(3)	Calculate ML
+>	-	Due: 03/02/2015
+
 **24 & 26 February 2015** - *Objects*
 >**Readings**
 > - Huelsenbeck 2.3 - Stochastic Mechs for Character Change

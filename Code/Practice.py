@@ -72,7 +72,7 @@ print(next(x[0] for x in enumerate(list) if x[1] > 5))
 """
 #practice matrices
 
-v = 0.1
+v = 0
 Q = [[-1.916, 0.541, 0.787, 0.588], 
 	[0.148, -1.069, 0.415, 0.506], 
 	[0.286, 0.170, -0.591, 0.135], 
@@ -81,6 +81,7 @@ Q = np.matrix(Q)
 #probmat = ratemat**(2)
 probmat = expm(Q * v)
 print(probmat)
+
 
 class contMarkov(object):
 	def __init__(self, bases = ['A','C','G','T'], Q = [[-1.916, 0.541, 0.787, 0.588],[0.148, -1.069, 0.415, 0.506],[0.286, 0.170, -0.591, 0.135],[0.525, 0.236, 0.594, -1.355]],v = 1.0, nsims = 1000):	
@@ -95,7 +96,7 @@ class contMarkov(object):
 		return probmat
 model = contMarkov()
 print (model.margprob())
-"""
+
 
 list1 = ['c', 'a','a', 'b', 'c', 'a', 'b', 'c', 'a', 'b','c', 'a']
 list2 = ['c', 'a','a', 'b', 'c', 'a', 'b', 'c', 'a', 'b','c', 'a']
@@ -109,3 +110,21 @@ for key, value in counter.items():
 dlist.sort()
 print (dlist)
 
+"""
+row = [-1.916, 0.541, 0.787, 0.588]
+probs = [x if x > 0 else -x for x in row]
+print ("probs",probs)
+
+#creates cumulative list (cumprobs) from old list (row)
+cumprobs = (np.cumsum(probs))
+print("cumprobs",cumprobs)
+
+tot = cumprobs[-1]
+print ("total",tot)
+num = random.uniform(0.0,tot)
+print ("randomnum",num)
+	
+#goes to next element (x) in list (cumprobs) if statement is true (x > num)
+#& returns it's index (next() function)
+index = next(x[0] for x in enumerate(cumprobs) if x[1] > num)	
+print ("index",index)
