@@ -10,8 +10,13 @@ This Week
 >**Readings**
 > - 
 
+**19 March 2015** - *Calculating Liklihood of Trees*
+>**Readings**
+> - Yang CH4 - Calculating Likelihoods
+>     -    4.2
+
 >**Exercise 6** - [*Tree/Node Objects*](https://github.com/jembrown/CompPhylo_Spr2015/blob/master/Exercises/Exercise6_NodesTrees.py)
->	-	My Code: [Ex6-Trees](url)
+>	-	My Code: [Ex6-Trees](https://github.com/zachrodriguez/CompPhylo2015/blob/master/Code/Ex6-Trees.py)
 >   -   To Do:
 >		-	(1) Create node Object
 		-	(2)	Create Tree object
@@ -25,11 +30,11 @@ This Week
 Future
 -------
 
-**DD MMMM 2015** - *Topic* 
+**24 March 2015** - *Tree Likelihood & Bayesian Inference* 
 >**Readings**
 > - book: CH - Topic
 
->**Exercise x.x** - [*title*](url)
+>**Exercise 7** - [*Tree Likelihood*](url)
 >	-	My Code: [text-to-display](url)
 >	-	Due: mm/dd/yyyy
 
@@ -44,7 +49,7 @@ Past
 > - Yang: CH4 - Calculate Likelihood Scores on Trees
 
 >**Exercise 5** - [*Continuous Markov Chain Using Objects*](url)
->	-	My Code: [Ex5-MC with Objects](url)
+>	-	My Code: [Ex5-MC with Objects](https://github.com/zachrodriguez/CompPhylo2015/blob/master/Code/Ex5-Object.py)
 >   -   To Do:
 >		-	(1) Calculate Likelihood Scores
 		-	(2)	Estimate Branch Lengths (v) given the data (nt changes)

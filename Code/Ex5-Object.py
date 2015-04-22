@@ -25,13 +25,13 @@ class markov(object):
 				     [0.148, -1.069, 0.415, 0.506],
                             [0.286, 0.170, -0.591, 0.135],
 			           [0.525, 0.236, 0.594, -1.355]],
-                       v = 0.5, nsims = 100):
+                       v = 0.5, seqlen = 100):
 		self.bases = bases	#sets state space (nucleotides)
 		self.Q = Q      #sets rate matrix
 		self.v = v      #time being looked at (branch length)
 		self.chain = []	#list to hold states from Markov chain
 		self.times = []	#list to hold amount of time until state change
-		self.nsims = nsims	
+		self.seqlen = seqlen	
 		self.bases = bases
 	
 	#Calculate marginal probabilities of rate matrix
@@ -49,17 +49,18 @@ class markov(object):
 	def dsample(self, row):
 		#multiplies each element in list by -1 if element < 0		
 		probs = [x if x > 0 else -x for x in row]
-		print ("probs:", probs)
+		#print ("probs:", probs)
 		#creates cumulative list (cumprobs) from old list (row)
 		cumprobs = np.cumsum(probs)
-		print ("cumprobs:", cumprobs)
+		#print ("cumprobs:", cumprobs)
+		#maximum prob (tot) is the last value in the list		
 		tot = cumprobs[-1]
 		num = random.uniform(0.0,tot) #samples from cum list
-		print ("random number:", num)
+		#print ("random number:", num)
 		#goes to next element (x) in list (cumprobs) if statement is true (x > num)
 		#& returns it's index (next() function)
 		index = next(x[0] for x in enumerate(cumprobs) if x[1] > num)
-		print ("index:", index, "base:", self.bases[index])
+		#print ("index:", index, "base:", self.bases[index])
 		return self.bases[index]
 	
 	"""
@@ -69,10 +70,10 @@ class markov(object):
 class cMC(markov):
 	def sim(self):
 		piQ = self.margprob(100)    #Calculates stationary rate matrix
-		for x in range(self.nsims):
+		for x in range(self.seqlen):
 			states = []
 			self.times = []
-			i = self.dsample(piQ[0])    #Samples i from stationary matrix
+			i = self.dsample(piQ[0])    #Samples initial state from stationary matrix
 			states.append(i)
 			time = random.expovariate(-1/self.Q[self.bases.index(i)][self.bases.index(i)])
 			self.times.append(time)
@@ -82,16 +83,25 @@ class cMC(markov):
 				idex = self.bases.index(i)
 				#samples random time from exp dist with mean of diagonal value
 				time = random.expovariate(-1/self.Q[self.bases.index(i)][self.bases.index(i)])
-				print ("Current Time:",time)
+				#print ("Current Time:",time)
 				#draw next nt from row of curr nt. in rate matrix (Q)
 				
 				#margprob(time) or margprob (v) or rate matrix?
+				#samples next state (j) from row 
 				j = self.dsample(self.Q[idex])
 				states.append(j)
 				self.times.append(time)
 			self.chain.append(states)
 		return self.chain
 	
+	def printseq(self):
+		print ("seq1 --> seq2")		
+		for subs in self.chain:
+			sdex = self.chain.index(subs)
+			seq = self.chain[sdex]	
+			i =	seq[0]
+			j = seq[-1]
+			print(" ",i," --> ",j)		
 	"""
 	This function Calculates the likelihood of a sequence 
 	of base pair changes, for a given branch length (v)
@@ -99,12 +109,13 @@ class cMC(markov):
 	
 	def lseq(self,v):
 		vals = []	
-		seq = self.chain[0]
-		for element in seq[1:]:
-			edex = seq.index(element)			
-			i =	seq[edex-1]
+		for subs in self.chain:
+			sdex = self.chain.index(subs)
+			seq = self.chain[sdex]	
+			i =	seq[0]
+			j = seq[-1]
 			idex = self.bases.index(i)
-			jdex = self.bases.index(element)		
+			jdex = self.bases.index(j)		
 			vals.append(self.margprob(v)[idex][jdex])
 		lcurr = 1
 		for Pij in vals:		
@@ -143,7 +154,7 @@ class cMC(markov):
 	def blength(self,seed=random.random(),diff=0.01,thresh=0.000001):
 		vcurr = round(seed,2)
 		print ("seed:", vcurr)
-		while diff > thresh and vcurr < 25.0:
+		while diff > thresh and vcurr < 25.0 and vcurr > 0:
 			lcurr = self.lseq(vcurr)
 			#if likelihood of current v < new v, set new v as current v & increase the step by 2x	
 			vnew = self.step(vcurr,diff)			
@@ -152,7 +163,7 @@ class cMC(markov):
 				diff *= 2			#if likelihood of current v > new v, divide step by 2 and re-try
 			else:	                      
 				diff /= 2
-			print ("current branch length:",vcurr,"current likelihood:",lcurr, "current diff:",diff)
+			print ("current branch length:",vcurr,"| current likelihood:",lcurr, "| current diff:",diff)
 		return vcurr
 	
 	def substitutions(self):
@@ -190,17 +201,15 @@ class cMC(markov):
 #print (model.cMC(i="T"))
 #print ("branchlength given chain of sequence changes:",model.blength())
 
-model = cMC(nsims = 1)
+model = cMC(seqlen = 10)
 #model.chain = [["A","C","T","A","G"]   #Troubleshoot
 blengths = []
 #for x in range (100):
 #	chain = model.sim()
 # 	blengths.append(model.blength())
 
-#blengths.append(model.blength())
-print ("estimated branchlengths:",blengths)
-
 chain = model.sim()
+model.printseq()
 print ("Chain:",chain)
 blengths = []
 blengths.append(model.blength())
